@@ -35,8 +35,6 @@ public class Usuario extends AbstractEntity {
 	@Column(name = "ds_senha")
 	private String senha;
 	
-	
-	
 	public String getNome() {
 		return nome;
 	}

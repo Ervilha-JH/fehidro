@@ -13,6 +13,8 @@ import javax.persistence.Table;
 			query = "select p from Pontuacao p where p.id=?1"),
 	
 })
+//Classe responsavel para padronização do sistema de avaliação - NÃO POSSUI A NOTA DADA PELO AVALIADOR EM SÍ.
+//Se está procurando a nota dada pelo avaliador vá para a classe Nota
 public class Pontuacao extends AbstractEntity {
 	private static final long serialVersionUID = 1L;
 	@Column(name = "nm_titulo")

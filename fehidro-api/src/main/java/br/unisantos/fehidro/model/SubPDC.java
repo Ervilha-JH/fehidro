@@ -15,4 +15,5 @@ public class SubPDC extends AbstractEntity {
 	@Column(name="nm_titulo")
 	private String titulo;
 
+
 }
