@@ -35,4 +35,6 @@ public class Avaliacao extends AbstractEntity {
     @JoinColumn(name = "pdc_id")
     private PDC pdc;
 	
+    
+    
 }
