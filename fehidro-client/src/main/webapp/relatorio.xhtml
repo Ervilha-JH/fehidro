@@ -8,5 +8,16 @@
 </h:head>
 <h:body>
 	<h1>Relatorio</h1>
+	<h:dataTable value="#{RelatorioBean.avaliacoes}" var="u" id="tabela"
+				styleClass="table" >
+				<h:column>
+					<f:facet name="header">Proposta</f:facet>
+					<h:outputText value="#{u.proposta.titulo}" />
+				</h:column>
+				<h:column>
+					<f:facet name="header">Avaliacao</f:facet>
+					<h:outputText value="#{u.avaliacao.nota}" />
+				</h:column>	
+			</h:dataTable>
 </h:body>
 </html>

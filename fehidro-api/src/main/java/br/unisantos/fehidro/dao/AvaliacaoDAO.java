@@ -6,9 +6,8 @@ import br.unisantos.fehidro.model.Avaliacao;
 
 public class AvaliacaoDAO extends DAOFactory<Avaliacao> {
 
-	public AvaliacaoDAO(Class<Avaliacao> classe) {
-		super(classe);
-		// TODO Auto-generated constructor stub
+	public AvaliacaoDAO() {
+		super(Avaliacao.class);
 	}
 	
 	public void cadastrar(Avaliacao avaliacao) {
@@ -24,8 +23,7 @@ public class AvaliacaoDAO extends DAOFactory<Avaliacao> {
 	}
 
 	public List<Avaliacao> listar() {
-		// TODO Auto-generated method stub
-		return null;
+		return listarGenerico("Avaliacao.listarTodos");
 	}
 	
 //	public List<Avaliacao> listar(Avaliacao avaliacao) {

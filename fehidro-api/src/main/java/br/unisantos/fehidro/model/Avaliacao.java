@@ -3,11 +3,17 @@ package br.unisantos.fehidro.model;
 import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 //Classe que mantem a nota dada por um avaliador
+
 @Table(name = "tb_avaliacao")
 @Entity
+@NamedQueries({ 
+	@NamedQuery(name = "Avaliacao.listarTodos", query = "select a from Avaliacao a"), 
+})
 public class Avaliacao extends AbstractEntity {
 	private static final long serialVersionUID = 1L;
 	
@@ -18,6 +24,10 @@ public class Avaliacao extends AbstractEntity {
     @ManyToOne
     @JoinColumn(name = "usuario_id")
     private Usuario avaliador;
+    
+    @ManyToOne
+    @JoinColumn(name = "proposta_id")
+    private Proposta proposta;
     
     @ManyToOne
     @JoinColumn(name = "subcriterio_id")
@@ -35,6 +45,4 @@ public class Avaliacao extends AbstractEntity {
     @JoinColumn(name = "pdc_id")
     private PDC pdc;
 	
-    
-    
 }

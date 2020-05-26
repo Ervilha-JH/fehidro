@@ -1,7 +1,7 @@
 package br.unisantos.fehidro.model;
 
 
-//TODO: implementar
+//TODO: Desnecessario?
 public class Relatorio {
 	
 	public void gerarRelatorioGeral()
