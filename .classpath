@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="fehidro-api/src/main/java"/>
+	<classpathentry kind="src" path="fehidro-client/src/main/java"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar" sourcepath="C:/Users/Arthur/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="jakarta.ws.rs-api-2.1.6.jar"/>
+			<attribute name="maven.groupId" value="jakarta.ws.rs"/>
+			<attribute name="maven.artifactId" value="jakarta.ws.rs-api"/>
+			<attribute name="maven.version" value="2.1.6"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Arthur/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar" sourcepath="C:/Users/Arthur/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="javax.persistence-api-2.2.jar"/>
+			<attribute name="maven.groupId" value="javax.persistence"/>
+			<attribute name="maven.artifactId" value="javax.persistence-api"/>
+			<attribute name="maven.version" value="2.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Arthur/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar" sourcepath="C:/Users/Arthur/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="jackson-annotations-2.9.0.jar"/>
+			<attribute name="maven.groupId" value="com.fasterxml.jackson.core"/>
+			<attribute name="maven.artifactId" value="jackson-annotations"/>
+			<attribute name="maven.version" value="2.9.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Arthur/.m2/repository/com/sun/faces/jsf-api/2.2.20/jsf-api-2.2.20.jar" sourcepath="C:/Users/Arthur/.m2/repository/com/sun/faces/jsf-api/2.2.20/jsf-api-2.2.20-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="jsf-api-2.2.20.jar"/>
+			<attribute name="maven.groupId" value="com.sun.faces"/>
+			<attribute name="maven.artifactId" value="jsf-api"/>
+			<attribute name="maven.version" value="2.2.20"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="/fehidro-client"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/fehidro-api"/>
+	<classpathentry kind="output" path="fehidro-api/target/classes"/>
+</classpath>

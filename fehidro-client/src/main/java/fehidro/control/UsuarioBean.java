@@ -7,7 +7,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 import fehidro.model.Usuario;
-import fehidro.rest.client.UsuarioRESTClient;
+//import fehidro.rest.client.UsuarioRESTClient;
 
 @ManagedBean
 @SessionScoped
@@ -44,7 +44,7 @@ public class UsuarioBean implements Serializable {
 	}
 	
 	public String consultar() {
-		UsuarioRESTClient rest = new UsuarioRESTClient();
+		//UsuarioRESTClient rest = new UsuarioRESTClient();
 		if (consulta != null && !consulta.trim().isEmpty()) {
 			
 		}
@@ -55,7 +55,7 @@ public class UsuarioBean implements Serializable {
 	}
 	
 	public String gravar() {
-		UsuarioRESTClient rest = new UsuarioRESTClient();
+		//UsuarioRESTClient rest = new UsuarioRESTClient();
 		if (usuario.getId() == null) {
 			//rest.create(usuario);
 			usuario = new Usuario();			
